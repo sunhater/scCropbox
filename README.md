@@ -54,7 +54,7 @@ $('#cropbox').shCropbox({
 });
 ```
 
-### Other Options 
+## Other Options 
 
 | Name: `min` | Type: `integer` | Default: `50` |
 |-------------|-----------------|---------------|
