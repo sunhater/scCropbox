@@ -18,8 +18,8 @@ Just include jQuery and shCropbox source files
     <head>
         ...
         <script src="http://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
-        <script src="/your/path/to/jquery.sh-cropbox.js" type="text/javascript"></script>
-        <link href="/your/path/to/jquery.sh-cropbox.css" type="text/css" />
+        <script src="/your/path/to/sh-cropbox.js" type="text/javascript"></script>
+        <link href="/your/path/to/sh-cropbox.css" type="text/css" />
         ...
   </head>
   <body>
