@@ -1,0 +1,19 @@
+{
+  "author": {
+    "name": "Pavel Tzonkov",
+    "email": "sunhater@sunhater.com"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.1"
+  },
+  "homepage": "https://github.com/sunhater/shCropbox",
+  "keywords": ["crop", "image", "jquery", "drag", "drop"],
+  "license": "MIT",
+  "main": "sh-cropbox.js",
+  "name": "sh-cropbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunhater/shCropbox.git"
+  },
+  "version": "0.0.1"
+}

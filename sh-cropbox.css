@@ -1,0 +1,111 @@
+.sh-cropbox {
+    text-align: center;
+}
+
+.sh-cropbox * {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.sh-cropbox-wrap {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.sh-cropbox-wrap img {
+    vertical-align: top;
+}
+
+.sh-cropbox-crop {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    line-height: 1;
+    z-index: 3;
+    cursor: grab;
+}
+
+.sh-cropbox-crop > div {
+    background: rgba(230, 230, 230, .6);
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    width: 10000rem;
+    height: 10000rem;
+    pointer-events: none;
+}
+
+.sh-cropbox-crop > div:nth-child(1) {
+    right: 100%;
+    top: -5000rem;
+}
+
+.sh-cropbox-crop > div:nth-child(2) {
+    top: 100%;
+    left: 0;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.sh-cropbox-crop > div:nth-child(3) {
+    bottom: 100%;
+    right: 0;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.sh-cropbox-crop > div:nth-child(4) {
+    left: 100%;
+    top: -5000rem;
+}
+
+.sh-cropbox-handles {
+    width: 0;
+    height: 0;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sh-cropbox-handle {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background: #fff;
+    border: 1px solid #999 !important;
+    border-radius: 2rem;
+    color: #fff;
+    z-index: 4;
+    left: -5000rem;
+    top: -5000rem;
+}
+
+.sh-cropbox-handle.drag {
+    opacity: 0;
+}
+
+.sh-cropbox-handle.se, .sh-cropbox-handle.nw {
+    cursor: nwse-resize;
+}
+
+.sh-cropbox-handle.sw, .sh-cropbox-handle.ne {
+    cursor: nesw-resize;
+}
+
+.sh-cropbox-handle.n, .sh-cropbox-handle.s {
+    cursor: ns-resize;
+}
+
+.sh-cropbox-handle.w, .sh-cropbox-handle.e {
+    cursor: ew-resize;
+}
+
+.sh-cropbox-overhidden {
+    overflow: hidden !important;
+}
