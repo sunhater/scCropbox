@@ -1,6 +1,6 @@
 # shCropbox
 
-Drag and drop cropping a rectangle area from image (or any DOM object).
+Select a rectangle area from image (or any DOM object) with moving and drag & drop.
 
 Pavel Tzonkov (sunhater@sunhater.com)
 https://github.com/sunhater/shCropbox
