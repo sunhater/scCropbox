@@ -1,6 +1,6 @@
 # shCropbox
 
-Select a rectangle area from image (or any DOM object) with moving and drag & drop. The plugin is a frontend only and selects the coordinates and the size of cropping area related to the image. It's your job to pass these parameters to image cropping application.
+Select a rectangle area from image (or any DOM object) with moving and drag & drop. The plugin is just a frontend and selects the coordinates and the size of cropping area related to the image. It's your job to pass these parameters to image cropping application.
 
 Pavel Tzonkov (sunhater@sunhater.com)
 https://github.com/sunhater/shCropbox
