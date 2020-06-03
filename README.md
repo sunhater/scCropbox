@@ -2,7 +2,7 @@
 
 Drag and drop cropping a rectangle area from image (or any DOM object).
 
-Pacel Tzonkov (sunhater@sunhater.com)
+Pavel Tzonkov (sunhater@sunhater.com)
 https://github.com/sunhater/shCropbox
 
 ## License
